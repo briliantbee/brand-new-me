@@ -17,7 +17,7 @@ export const metadata = {
     description:
       "Multidisciplinary developer and designer crafting clean, fast, and usable digital experiences. Based in Indonesia.",
     type: "website",
-    url: "https://abisamhazim.com",
+    url: "https://beefolio.me",
     siteName: "Abisam Hazim",
     images: [{ url: "/gwehj.png", width: 420, height: 480, alt: "Abisam Hazim" }],
   },

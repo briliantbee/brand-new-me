@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_ID",
-    url: "https://abisamhazim.com",
+    url: "https://beefolio.me",
     siteName: "Abisam Hazim",
     title: "Abisam Hazim — Multidisciplinary Developer & Designer",
     description:

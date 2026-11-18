@@ -8,9 +8,51 @@ import { Footer } from "@/components/sections/Footer";
 import { SiteStaggeredMenu } from "@/components/SiteStaggeredMenu";
 import { ScrollBackground } from "@/components/ScrollBackground";
 
+export const metadata = {
+  title: "Abisam Hazim — Multidisciplinary Developer & Designer",
+  description:
+    "Portfolio of Abisam Hazim, a multidisciplinary developer and designer based in Indonesia. Clean, fast web interfaces, product design, and creative front-end development.",
+  openGraph: {
+    title: "Abisam Hazim — Multidisciplinary Developer & Designer",
+    description:
+      "Multidisciplinary developer and designer crafting clean, fast, and usable digital experiences. Based in Indonesia.",
+    type: "website",
+    url: "https://abisamhazim.com",
+    siteName: "Abisam Hazim",
+    images: [{ url: "/gwehj.png", width: 420, height: 480, alt: "Abisam Hazim" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Abisam Hazim — Multidisciplinary Developer & Designer",
+    images: ["/gwehj.png"],
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Abisam Hazim",
+  description: "Multidisciplinary developer and designer based in Indonesia.",
+  url: "https://beefolio.me/",
+  image: "https://beefolio.me/gwehj.png",
+  email: "abisamhazim04@gmail.com",
+  sameAs: [
+    "https://github.com/briliantbee",
+  ],
+  jobTitle: "Developer & Designer",
+  worksFor: {
+    "@type": "Organization",
+    name: "Freelance",
+  },
+};
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col text-foreground">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <SiteStaggeredMenu isFixed />
       <span id="home" className="block h-0" />
       <ScrollBackground

@@ -1,0 +1,17 @@
+{
+  "name": "Abisam Hazim",
+  "short_name": "Abisam",
+  "description": "Multidisciplinary developer and designer based in Indonesia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f0ea",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/abisam-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

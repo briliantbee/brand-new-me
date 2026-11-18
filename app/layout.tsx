@@ -18,6 +18,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://beefolio.me/"),
+  icons: {
+    icon: "/mylogo.png",
+    apple: "/mylogo.png",
+  },
   title: {
     default: "Abisam Hazim — Multidisciplinary Developer & Designer",
     template: "%s | Abisam Hazim",
